@@ -1,0 +1,81 @@
+body{
+    background: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {background: white;
+    width: 500px;
+height: 700px;
+margin: auto;}
+
+.Body-Header {background-color: white;
+    display: flex;
+}
+
+.User {color: black;
+    margin: 0;
+width: 100%;
+padding-bottom: 0;
+padding-top: 5px;}
+
+.profile-photo {margin: 0;
+margin-right: 3px;
+margin-left: 2px;}
+
+#profile-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid gray;
+    margin-top: 4px;
+}
+
+#name {font-size: small;
+margin-left: 2px;}
+
+.options-button {width: 50px;
+height: 40px;
+}
+
+#description {margin-top: 20px;
+padding: 5px;
+}
+
+#likes {
+margin-left: 3px;
+margin-top: 15px;}
+
+.fa-ellipsis-v {margin-left: 15px;
+margin-top: 7px;}
+
+.Body-image {
+    width: 500px;
+    height: 450px;
+    margin-bottom: 4px;
+}
+
+#content-image {width: 100%;
+    height: 100%;
+}
+
+.Body-footer {
+    margin-left: 10px;
+}
+
+.interactives-buttons {
+    display: flex;
+    margin-left: 3px;
+}
+
+.fa-paper-plane {width: 386px;}
+
+* {border: 0px solid transparent ;
+    margin: 0;
+    padding: 0;
+}
